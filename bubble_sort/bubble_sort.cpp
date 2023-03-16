@@ -59,3 +59,11 @@ void display() {		// procedur untuk menampilkan hasil
 	cout << endl;							// Output garis kosong 
 }
 
+int main() {
+	input();			// Memanggil procedur read()
+	unsorted();			// Memanggil unsorted() dari
+	bubbleSortArray();		// Memanggil procedur bubbleSortArray()
+	display();			// Memanggil procedur display()
+
+	return 0;
+}
